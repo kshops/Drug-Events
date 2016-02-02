@@ -12,12 +12,12 @@ The data files used for this project were drug adverse event reports downloaded 
 * DataFrames were concatenated into a final DataFrame and saved to disk
 
 ## Visualizing the data
-### First graph: Figure1b.ipynb
+### First graph: 
 I was interested in comparing the deaths reported for different drug classes over time. A summary table was created showing the total number of
 events gropued by year, drug class, gender, and whether or not the event resulted in death. I then used Bokeh to plot graphs for each drug class showing 
 deaths per year broken down by gender.
 
-### Second graph: Figure2.ipynb (inspired by gapminder.ipynb on Bokeh website)
+### Second graph: (inspired by gapminder.ipynb on Bokeh website)
 I wanted to make a cool visualization comparing the number of deaths, total event reports, and average age of patients, oh and I wanted to show this over time.
 I ended up making a scatter plot where circle size represents total number of reports with deaths and age reported on the x and y axes. A slider was used to switch
 between years.
